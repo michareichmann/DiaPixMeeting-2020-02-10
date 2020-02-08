@@ -1,0 +1,50 @@
+\section{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FRAME 0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Results}
+
+  \begin{itemize}
+    \item pedestal \& noise
+    \item signal
+    \item uniformity
+    \item rate studies
+    \begin{itemize}
+      \item random scans
+      \item nonirradiated
+      \nicetab{c|r|r|r|r}{
+  \multirow{2}{*}{\textbf{Name}} & \multicolumn{2}{c|}{\textbf{$\sigma_{\z{rel}}$ [\%]}}  & \multicolumn{2}{c}{\textbf{$s_{\z{rel}}$ [\%]}} \\\cline{2-5}
+  &\SI[retain-explicit-plus]{+1000}{\V} & \SI{-1000}{\V} & \SI[retain-explicit-plus]{+1000}{\V}& \SI{-1000}{\V}\\\hline
+  poly-b2 & 1.1 & 1.8 & \SI{4.5 \pm 0.1}{}  & \SI{ 5.5 \pm 0.1}{}\\
+  poly-97 & -   & 4.0 & -                   & \SI{13.8 \pm 0.1}{}\\
+  }[Results of the nonirradiated detectors.][tab:rni]
+    \end{itemize}
+
+  \end{itemize}
+
+\end{frame}
+\begin{frame}{B2 \& 97 irrad}
+\nicetab{c|r|r|r|r}{
+  \multicolumn{1}{c|}{\textbf{Irradiation}} & \multicolumn{2}{c|}{\textbf{${\sigma_{\z{rel}}}$ [\%]}}  & \multicolumn{2}{c}{\textbf{${s_{\z{rel}}}$ [\%]}} \\\cline{2-5}
+  \multicolumn{1}{c|}{\textbf{[\SI{}{\ncm}]}}&\SI[retain-explicit-plus]{+1000}{\V} & \SI{-1000}{\V} & \SI[retain-explicit-plus]{+1000}{\V}& \SI{-1000}{\V}\\\hline
+  \SI{5e14}{} & 1.0 & 0.9 & \SI{3.8 \pm 0.1}{} & \SI{ 3.6 \pm 0.1}{} \\
+  \SI{1e15}{} & 0.8 & 0.7 & \SI{2.9 \pm 0.2}{} & \SI{ 2.4 \pm 0.2}{} \\
+  \SI{2e15}{} & 0.8 & 0.9 & \SI{3.1 \pm 0.2}{} & \SI{ 3.3 \pm 0.2}{} \\
+  \SI{2e15}{} & 1.0 & 2.3 & \SI{4.2 \pm 0.4}{} & \SI{12.7 \pm 2.1}{} \\
+  \SI{4e15}{} & 0.6 & 0.8 & \SI{2.8 \pm 0.3}{} & \SI{ 3.0 \pm 0.3}{} \\
+  \SI{8e15}{} & 0.7 & 0.8 & \SI{3.0 \pm 0.5}{} & \SI{ 3.4 \pm 0.5}{} \\
+  }[Results of the irradiated poly-b2 detector.][tab:b2i]
+
+\nicetab{c|r|r|r|r}{
+  \multicolumn{1}{c|}{\textbf{Irradiation}} & \multicolumn{2}{c|}{\textbf{${\sigma_{\z{rel}}}$ [\%]}}  & \multicolumn{2}{c}{\textbf{${s_{\z{rel}}}$ [\%]}} \\\cline{2-5}
+  \multicolumn{1}{c|}{\textbf{[\SI{}{\ncm}]}}&\SI[retain-explicit-plus]{+1000}{\V} & \SI{-1000}{\V} & \SI[retain-explicit-plus]{+1000}{\V}& \SI{-1000}{\V}\\\hline
+  \SI{5e14}{} & 1.3 & 1.1 & \SI{4.9 \pm 0.2}{} & \SI{4.0 \pm 0.2}{} \\
+  \SI{1e15}{} & 1.6 & 1.0 & \SI{5.5 \pm 0.2}{} & \SI{3.6 \pm 0.2}{} \\
+  \SI{2e15}{} & 1.6 & 2.2 & \SI{6.7 \pm 0.4}{} & \SI{8.1 \pm 0.4}{} \\
+  \SI{8e15}{} & 1.3 & 1.1 & \SI{5.2 \pm 0.2}{} & \SI{4.8 \pm 0.3}{} \\
+  }[Results of the irradiated poly-97 detector.][tab:97i]
+\end{frame}
+\begin{frame}{97 \& B2 @ \SI{-1000}{\V}}
+
+\subfigs{\subfig[.35]{.7}[r]{b2n}}{\subfig[.65]{.5}[r]{97n}}
+
+\end{frame}
+

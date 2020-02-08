@@ -1,0 +1,30 @@
+\section{Analysis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FRAME 0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Analysis}
+
+  \begin{itemize}
+    \item raw \ra root conversion
+    \item event alignment
+    \item tracking
+    \begin{itemize}
+      \item physical alignment of the telescope
+      \item plane uncertainties
+      \item track building
+    \end{itemize}
+    \item waveforms
+    \item cuts
+    \item rate dependence parameters
+  \end{itemize}
+  \begin{enumerate}
+  \item \textbf{relative standard deviation} of all points $x$:
+  \begin{equation}
+    \sigma_\z{rel} = \frac{\sqrt{\frac{1}{N-1}\cdot\sum\limits_{i=1}^{N}{\left(x_i-\overline{x}\right)^2}}}{\overline{x}}
+  \end{equation}
+  \item \textbf{relative spread} between the highest and the lowest signal:
+  \begin{equation}
+    s_\z{rel} = \frac{x_\z{max} - x_\z{min}}{\overline{x}}
+  \end{equation}
+
+\end{enumerate}
+  
+\end{frame}
